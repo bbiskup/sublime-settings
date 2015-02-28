@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/Baara Dark (Flake8Lint).tmTheme",
+	"color_scheme": "Packages/User/cobalt2 (Flake8Lint).tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -33,25 +33,27 @@
 		".tox",
 		"node_modules",
 		"build",
+		"_build",
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"bower_components",
+		".webassets-cache"
 	],
-	"font_size": 10,
+	"font_size": 9,
+	"format_on_save": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"preserve_newlines": true,
 	"rulers":
 	[
 		80,
 		100
 	],
+	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_whitespace_on_save": true,
-
-	// JS beautify
-	"preserve_newlines": true,
-	"format_on_save": true
+	"trim_trailing_whitespace_on_save": true
 }
